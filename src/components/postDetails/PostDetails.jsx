@@ -1,0 +1,7 @@
+export const PostDetails = () => {
+    return (
+        <div>
+            <h1>Welcome To The Post Details Page!</h1>    
+        </div>
+    )
+}

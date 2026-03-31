@@ -1,6 +1,6 @@
 import { getAllPosts } from "../../services/postService"
 
-export const PostList = () => {
+export const AllPosts = () => {
     return (
         <div className="post-container">
             <h2>All Posts</h2>

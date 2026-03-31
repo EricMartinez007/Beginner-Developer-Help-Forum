@@ -1,7 +1,7 @@
 export const Login = () => {
     return (
         <div>
-            <h1>Welcome to Login Screen</h1>    
+            <h1>Welcome To The Login Page!</h1>    
         </div>
     )
 }
