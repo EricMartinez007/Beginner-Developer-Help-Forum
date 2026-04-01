@@ -1,7 +1,6 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export const NavBar = () => {
-    const navigate = useNavigate()
 
     return (
         <nav>
@@ -25,10 +24,9 @@ export const NavBar = () => {
                     <li className="navbar-item navbar-logout">
                         <Link
                             className="navbar-link"
-                            to=""
+                            to="/login"
                             onClick={() => {
                                 localStorage.removeItem("ohara_user")
-                                navigate("/login", { replace: true })
                             }}
                         >
                             Logout
