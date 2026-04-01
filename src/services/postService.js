@@ -20,6 +20,16 @@ export const createLike = (newLike) => {
   }).then((res) => res.json())
 }
 
+export const createPost = (newPost) => {
+    return fetch("http://localhost:8088/posts", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(newPost),
+  }).then((res) => res.json())
+}
+
 export const getMyPosts = (currentUser) => {
     return fetch(`http://localhost:8088/posts?userId=${currentUser}`).then((res) => res.json())
 }

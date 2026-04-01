@@ -1,0 +1,107 @@
+.container-newpost {
+    padding: 2rem 4rem;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+}
+
+.container-newpost h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.container-newpost span {
+    color: #666;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.form-newpost {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-newpost h2 {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.form-newpost fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-title {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-title:focus {
+    border-color: #2d4a9e;
+}
+
+.form-body {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    min-height: 150px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.form-body:focus {
+    border-color: #2d4a9e;
+}
+
+.form-newpost .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.form-newpost label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.form-newpost input[type="radio"] {
+    accent-color: #2d4a9e;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #2d4a9e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    align-self: flex-start;
+}
+
+.submit-btn:hover {
+    background-color: #1a3a8e;
+}
