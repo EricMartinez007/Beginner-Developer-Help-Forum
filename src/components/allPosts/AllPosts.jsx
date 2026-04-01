@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { getAllPosts, getAllTopics } from "../../services/postService"
 import { Post } from "./Post"
+import "./Posts.css"
 
 export const AllPosts = ({ currentUser }) => {
     const [posts, setPosts] = useState([])
@@ -26,6 +27,7 @@ export const AllPosts = ({ currentUser }) => {
     return (
         <div className="posts-container">
             <h2>All Posts</h2>
+            <span>Browse and discover posts from the community</span>
             <article className="posts-filter-bar">
                 <div className="filter-bar">
                     <input
