@@ -1,23 +1,23 @@
-.container-newpost {
+.container-editpost {
     padding: 2rem 4rem;
     background-color: #f0f4f8;
     min-height: 100vh;
 }
 
-.container-newpost h1 {
+.container-editpost h1 {
     font-size: 1.8rem;
     color: #333;
     margin-bottom: 0.25rem;
 }
 
-.container-newpost span {
+.container-editpost span {
     color: #666;
     font-size: 0.9rem;
     display: block;
     margin-bottom: 1.5rem;
 }
 
-.form-newpost {
+.form-editpost {
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
@@ -27,13 +27,13 @@
     gap: 1rem;
 }
 
-.form-newpost h2 {
+.form-editpost h2 {
     color: #333;
     font-size: 1rem;
     margin-bottom: 0.25rem;
 }
 
-.form-newpost fieldset {
+.form-editpost fieldset {
     border: none;
     padding: 0;
     margin: 0;
@@ -69,14 +69,14 @@
     border-color: #2d4a9e;
 }
 
-.form-newpost .form-group {
+.form-editpost .form-group {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     align-items: flex-start;
 }
 
-.form-newpost label {
+.form-editpost label {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -88,16 +88,16 @@
     padding: 0.5rem 1rem;
 }
 
-.form-newpost label:hover {
+.form-editpost label:hover {
     border-color: #2d4a9e;
 }
 
-.form-newpost input[type="radio"]:checked + span {
+.form-editpost input[type="radio"]:checked + span {
     color: #2d4a9e;
     font-weight: bold;
 }
 
-.form-newpost input[type="radio"]:checked {
+.form-editpost input[type="radio"]:checked {
     accent-color: #2d4a9e;
 }
 
@@ -133,7 +133,7 @@
     background-color: #8e1a1a;
 }
 
-.newpost-buttons {
+.editpost-buttons {
     display: flex;
     gap: 1rem;
 }

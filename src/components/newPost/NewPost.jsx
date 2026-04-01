@@ -40,7 +40,7 @@ export const NewPost = ({ currentUser }) => {
                 <h1>Create a New Post</h1>
                 <span>Share your thoughts, questions, or insights with the community.</span>
                 <form className="form-newpost" onSubmit={handleSubmit}>
-                <h2>Post Title</h2>
+                <h2>Title</h2>
                 <fieldset>
                     <div className="form-group">
                         <input
@@ -55,7 +55,7 @@ export const NewPost = ({ currentUser }) => {
                         />
                     </div>
                 </fieldset>
-                <h2>Post Body</h2>
+                <h2>Body</h2>
                 <fieldset>
                     <div className="form-group">
                         <textarea
@@ -88,12 +88,19 @@ export const NewPost = ({ currentUser }) => {
                     </div>
                 </fieldset>
                 <fieldset>
-                    <div className="form-group">
+                    <div className="form-group newpost-buttons">
                         <button className="submit-btn" type="submit">
                             Publish Post
                         </button>
+                        <button 
+                            className="cancel-btn" 
+                            type="button"
+                            onClick={() => navigate(`/`)}
+                        >
+                            Cancel
+                        </button>
                     </div>
-            </fieldset>
+                </fieldset>
                 </form>
             </section>
         </main>
