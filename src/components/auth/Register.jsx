@@ -46,9 +46,9 @@ export const Register = (props) => {
   }
 
   return (
-    <main style={{ textAlign: "center" }}>
+    <main className="container-login">
+      <h1>Welcome To The Library of Ohara</h1>
       <form className="form-login" onSubmit={handleRegister}>
-        <h1>Welcome To The Library of Ohara</h1>
         <h2>Please Register</h2>
         <fieldset>
           <div className="form-group">

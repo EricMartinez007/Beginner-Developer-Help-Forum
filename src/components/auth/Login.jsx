@@ -30,8 +30,8 @@ export const Login = () => {
     return (
         <main className="container-login">
         <section>
-            <form className="form-login" onSubmit={handleLogin}>
             <h1>Welcome To The Library of Ohara</h1>
+            <form className="form-login" onSubmit={handleLogin}>
             <h2>Please sign in</h2>
             <fieldset>
                 <div className="form-group">
@@ -56,7 +56,7 @@ export const Login = () => {
             </form>
         </section>
         <section>
-            <Link to="/register">Not a member yet?</Link>
+            <Link to="/register" className="register-link">Not a member yet?</Link>
         </section>
         </main>
     )
