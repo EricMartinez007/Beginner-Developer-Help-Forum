@@ -11,7 +11,7 @@ export const NewPost = ({ currentUser }) => {
         body: "",
         topicId: 0,
         userId: currentUser.id,
-        date: "",
+        date: new Date(),
     })
     const [topics, setTopics] = useState([])
 
