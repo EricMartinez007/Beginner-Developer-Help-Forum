@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
+import "./navBar.css"
 
 export const NavBar = () => {
 
     return (
         <nav>
+            <span className="navbar-brand">
+                The Library of Ohara
+            </span>
             <ul>
                 <li>
                     <Link to="/">All Posts</Link>
