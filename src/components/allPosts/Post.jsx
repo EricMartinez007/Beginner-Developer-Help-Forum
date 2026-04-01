@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 
 export const Post = ({ post }) => {
     const navigate = useNavigate()
+    //Here we have an onClick event to take the user to the Post Details page once the click on the post they want to see
     return (
         <section 
             className="post"
