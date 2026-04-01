@@ -82,7 +82,7 @@ export const NewPost = ({ currentUser }) => {
                                     value={topic.id}
                                     onChange={updateNewPost}
                                 />
-                                {topic.name}
+                                <span>{topic.name}</span>
                             </label>
                         ))}
                     </div>

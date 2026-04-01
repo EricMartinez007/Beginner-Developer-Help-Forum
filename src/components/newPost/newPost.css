@@ -71,7 +71,7 @@
 
 .form-newpost .form-group {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 0.5rem;
     align-items: flex-start;
 }
@@ -83,11 +83,22 @@
     color: #333;
     font-size: 0.9rem;
     cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
 }
 
-.form-newpost input[type="radio"] {
+.form-newpost label:hover {
+    border-color: #2d4a9e;
+}
+
+.form-newpost input[type="radio"]:checked + span {
+    color: #2d4a9e;
+    font-weight: bold;
+}
+
+.form-newpost input[type="radio"]:checked {
     accent-color: #2d4a9e;
-    cursor: pointer;
 }
 
 .submit-btn {
