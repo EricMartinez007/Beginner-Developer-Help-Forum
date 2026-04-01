@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { getPostById, createLike } from "../../services/postService"
+import { getPostById } from "../../services/postService"
 import "./postDetails.css"
 import { PostDetailsButton } from "./PostDetailsButtons"
+import { createLike } from "../../services/likeService"
 
 export const PostDetails = ({ currentUser }) => {
     const [post, setPost] = useState(null)
