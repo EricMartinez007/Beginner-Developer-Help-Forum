@@ -6,7 +6,7 @@ export const NavBar = () => {
     return (
         <nav>
             <span className="navbar-brand">
-                The Library of Ohara
+                📖The Library of Ohara
             </span>
             <ul>
                 <li>
