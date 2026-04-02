@@ -13,5 +13,15 @@ export const createUser = (newUser) => {
 }
 
 export const getUserById = (currentUserId) => {
-    return fetch(`http://localhost:8088/users/${currentUserId}?_embed=likes`).then((res) => res.json())
+  return fetch(`http://localhost:8088/users/${currentUserId}?_embed=likes`).then((res) => res.json())
+}
+
+export const editUser = (userId, updatedUser) => {
+  return fetch(`http://localhost:8088/users/${userId}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(updatedUser),
+  }).then((res) => res.json())
 }
