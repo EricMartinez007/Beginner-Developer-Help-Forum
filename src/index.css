@@ -192,6 +192,21 @@ h1, h2, h3 {
     background-color: #8e1a1a;
 }
 
+.back-btn {
+    background-color: #2d9e33;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.back-btn:hover {
+    background-color: #248e1a;
+}
+
 .delete-btn {
     background-color: white;
     color: red;

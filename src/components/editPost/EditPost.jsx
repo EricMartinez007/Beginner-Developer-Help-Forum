@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom"
 import { editMyPost, getAllTopics, getPostById } from "../../services/postService"
 import "./editPost.css"
 
-export const EditPosts = ({ currentUser }) => {
+export const EditPosts = () => {
     const [post, setPost] = useState(null)
     const [topics, setTopics] = useState([])
 

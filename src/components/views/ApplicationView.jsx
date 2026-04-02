@@ -35,7 +35,7 @@ useEffect(() => {
                 <Route path="myposts" element={<MyPosts currentUser={currentUser} />} />
                 <Route path="newpost" element={<NewPost currentUser={currentUser} />} />
                 <Route path="post/:postId" element={<PostDetails currentUser={currentUser} />} />
-                <Route path="post/:postId/edit" element={<EditPosts currentUser={currentUser} />} />
+                <Route path="post/:postId/edit" element={<EditPosts />} />
                 <Route path="favorites" element={<Favorites currentUser={currentUser} />} />
                 <Route path="profile" element={<Profile currentUser={currentUser} />} />
                 <Route path="profile/edit" element={<EditProfile currentUser={currentUser} />} />

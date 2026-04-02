@@ -10,7 +10,10 @@ export const Post = ({ post }) => {
         >
             <span className="post-topic">{post.topic.name}</span>
             <div className="post-footer">
-                <span className="post-title">{post.title}</span>
+                <div className="post-left">
+                    <span className="post-title">{post.title}</span>
+                <span className="post-author">Author: {post.user.name}</span>
+                </div>
                 <span className="post-likes">❤️{post.likes.length}</span>
             </div>
         </section>

@@ -80,6 +80,17 @@
     align-items: center;
 }
 
+.post-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.post-author {
+    color: #666;
+    font-size: 0.8rem;
+}
+
 .post-likes {
     color: #666 !important;
     font-size: 0.85rem !important;

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { getPostById } from "../../services/postService"
 import "./postDetails.css"
 import { PostDetailsButton } from "./PostDetailsButtons"
@@ -10,6 +10,8 @@ export const PostDetails = ({ currentUser }) => {
 
     //the name here has to match the URL parameter that was defined in ApplicationView.jsx
     const { postId } = useParams()
+
+    const navigate = useNavigate()
 
     const getAndSetPost = () => {
         getPostById(postId).then(postObj => {
@@ -31,6 +33,7 @@ export const PostDetails = ({ currentUser }) => {
 
         createLike(newLike).then(() => {
             getAndSetPost()
+            navigate("/favorites")
         })
     }
     
@@ -45,6 +48,13 @@ export const PostDetails = ({ currentUser }) => {
     
     return (
         <div className="page-container">
+            <button
+                className="back-btn" 
+                type="button"
+                onClick={() => navigate(-1)}
+            >
+                Go back
+            </button>
             <section className="post-section">
                 <span className="post-topic">{post.topic.name}</span>
                 <div className="post-info">
