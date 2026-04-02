@@ -54,8 +54,9 @@ export const EditPosts = ({ currentUser }) => {
                 <h1 className="page-title">Edit Post</h1>
                 <span className="page-subtitle">You are modifying an existing post. Changes will replace the current version.</span>
                 <form className="form-editpost" onSubmit={handleSubmit}>
-                <h2>Title</h2>
                 <fieldset>
+                    <h2>Title</h2>
+                    <span>Edit the title of your post.</span>
                     <div className="form-group">
                         <input
                             type="text"
@@ -69,8 +70,9 @@ export const EditPosts = ({ currentUser }) => {
                         />
                     </div>
                 </fieldset>
-                <h2>Body</h2>
                 <fieldset>
+                    <h2>Body</h2>
+                    <span>Edit the body of your post.</span>
                     <div className="form-group">
                         <textarea
                             type="text"
@@ -84,8 +86,9 @@ export const EditPosts = ({ currentUser }) => {
                         />
                     </div>
                 </fieldset>
-                <h2>Select a Topic</h2>
                 <fieldset>
+                    <h2>Select a Topic</h2>
+                    <span>Change the topic of your post.</span>
                     <div className="form-group">
                         {topics.map(topic => (
                             <label key={topic.id}>

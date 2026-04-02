@@ -10,8 +10,16 @@
 
 .form-edituser h2 {
     color: #333;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0rem;
+}
+
+.form-edituser span {
+    color: #666;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .form-edituser fieldset {
@@ -25,6 +33,12 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     align-items: flex-start;
+}
+
+.form-name,
+.form-email,
+.form-cohort {
+    margin-top: 0.75rem;
 }
 
 .edituser-buttons {
