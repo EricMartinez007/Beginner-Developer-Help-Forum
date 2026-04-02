@@ -125,3 +125,158 @@ table {
   border-spacing: 0;
 }
 
+/* MY ADDITIONS TO INDEX.CSS=>THESE ARE USED EVERYWHERE AND NEED TO STAY CONSISTENT */
+/* Global Styles
+--------------------------------------------------------------*/
+body {
+    background-color: #f0f4f8;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+/* Page Container
+--------------------------------------------------------------*/
+.page-container {
+    padding: 2rem 4rem;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+}
+
+/* Page Title
+--------------------------------------------------------------*/
+.page-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.page-subtitle {
+    color: #666;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons
+--------------------------------------------------------------*/
+.submit-btn {
+    background-color: #2d4a9e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.submit-btn:hover {
+    background-color: #1a3a8e;
+}
+
+.cancel-btn {
+    background-color: #9e312d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.cancel-btn:hover {
+    background-color: #8e1a1a;
+}
+
+.delete-btn {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 0.25rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.remove-btn {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 0.25rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.remove-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #2d4a9e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.edit-btn:hover {
+    background-color: #1a3a8e;
+}
+
+.login-btn {
+    background-color: #2d4a9e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.login-btn:hover {
+    background-color: #1a3a8e;
+}
+
+/* Form Inputs
+--------------------------------------------------------------*/
+.form-title,
+.form-body,
+.form-name,
+.form-email,
+.form-cohort {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-title:focus,
+.form-body:focus,
+.form-name:focus,
+.form-email:focus,
+.form-cohort:focus {
+    border-color: #2d4a9e;
+}
+
+.form-body {
+    min-height: 150px;
+    resize: vertical;
+}

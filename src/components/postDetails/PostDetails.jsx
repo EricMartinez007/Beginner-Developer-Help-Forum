@@ -44,7 +44,7 @@ export const PostDetails = ({ currentUser }) => {
     }
     
     return (
-        <div className="post-view">
+        <div className="page-container">
             <section className="post-section">
                 <span className="post-topic">{post.topic.name}</span>
                 <div className="post-info">

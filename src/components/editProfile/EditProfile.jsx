@@ -40,10 +40,10 @@ export const EditProfile = ({ currentUser }) => {
     }
 
     return (
-        <main className="container-edituser">
+        <main className="page-container">
             <section>
-                <h1>Edit User</h1>
-                <span>Update your profile information below.</span>
+                <h1 className="page-title">Edit User</h1>
+                <span className="page-subtitle">Update your profile information below.</span>
                 <form className="form-edituser" onSubmit={handleSubmit}>
                 <fieldset>
                     <h2>Full Name</h2>

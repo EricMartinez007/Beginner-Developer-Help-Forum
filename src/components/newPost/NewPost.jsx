@@ -35,10 +35,10 @@ export const NewPost = ({ currentUser }) => {
     }
 
     return (
-        <main className="container-newpost">
+        <main className="page-container">
             <section>
-                <h1>Create a New Post</h1>
-                <span>Share your thoughts, questions, or insights with the community.</span>
+                <h1 className="page-title">Create a New Post</h1>
+                <span className="page-subtitle">Share your thoughts, questions, or insights with the community.</span>
                 <form className="form-newpost" onSubmit={handleSubmit}>
                 <h2>Title</h2>
                 <fieldset>

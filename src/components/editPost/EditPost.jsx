@@ -49,10 +49,10 @@ export const EditPosts = ({ currentUser }) => {
     }
     
     return (
-        <main className="container-editpost">
+        <main className="page-container">
             <section>
-                <h1>Edit Post</h1>
-                <span>You are modifying an existing post. Changes will replace the current version.</span>
+                <h1 className="page-title">Edit Post</h1>
+                <span className="page-subtitle">You are modifying an existing post. Changes will replace the current version.</span>
                 <form className="form-editpost" onSubmit={handleSubmit}>
                 <h2>Title</h2>
                 <fieldset>

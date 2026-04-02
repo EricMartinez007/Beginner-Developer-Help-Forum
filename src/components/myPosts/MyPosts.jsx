@@ -32,7 +32,7 @@ export const MyPosts = ({ currentUser }) => {
     return (
         <div className="myposts-container">
             <h2>My Posts</h2>
-            <span>Manage and review all posts you've written</span>
+            <span className="page-subtitle">Manage and review all posts you've written</span>
             <article className="myposts-list">
                 {myPosts.map((post) => {
                     return (

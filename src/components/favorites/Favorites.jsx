@@ -32,7 +32,7 @@ export const Favorites = ({ currentUser }) => {
     return (
         <div className="myfavs-container">
             <h2>My Favorites</h2>
-            <span>Your collection of liked posts</span>
+            <span className="page-subtitle">Your collection of liked posts</span>
             <article className="myfavs-list">
                 {favorites.map((favPost) => {
                     return (

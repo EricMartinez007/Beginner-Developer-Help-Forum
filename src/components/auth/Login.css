@@ -56,21 +56,6 @@ body {
     font-size: 0.9rem;
 }
 
-.login-btn {
-    background-color: #2d4a9e;
-    color: white;
-    border: none;
-    padding: 0.5rem 1.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    white-space: nowrap;
-}
-
-.login-btn:hover {
-    background-color: #1a3a8e;
-}
-
 .register-link {
     margin-top: 1rem;
     color: #333;

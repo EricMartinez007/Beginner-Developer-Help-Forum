@@ -38,8 +38,8 @@ export const Profile = ({ currentUser }) => {
     }
 
     return (
-        <div className="profile-view">
-            <h1 className="profile-title">Profile</h1>
+        <div className="page-container">
+            <h1 className="page-title">Profile</h1>
             <section className="profile-section">
                 <h2 className="profile-name">{user.name}</h2>
                 <div className="profile-info">

@@ -1,9 +1,3 @@
-.profile-view {
-    padding: 2rem 4rem;
-    background-color: #f0f4f8;
-    min-height: 100vh;
-}
-
 .profile-section {
     background-color: white;
     border-radius: 8px;
@@ -18,7 +12,7 @@
 .profile-title {
     font-size: 1.8rem;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
 }
 
 .profile-info {
@@ -49,19 +43,4 @@
 .profile-buttons {
     display: flex;
     justify-content: center;
-}
-
-.edit-btn {
-    background-color: #2d4a9e;
-    color: white;
-    border: none;
-    padding: 0.5rem 1.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    white-space: nowrap;
-}
-
-.edit-btn:hover {
-    background-color: #1a3a8e;
 }
