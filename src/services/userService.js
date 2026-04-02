@@ -11,3 +11,7 @@ export const createUser = (newUser) => {
     body: JSON.stringify(newUser),
   }).then((res) => res.json())
 }
+
+export const getUserById = (currentUserId) => {
+    return fetch(`http://localhost:8088/users/${currentUserId}?_embed=likes`).then((res) => res.json())
+}

@@ -13,10 +13,16 @@
 
 .post-topic {
     color: #2d4a9e;
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
     font-weight: bold;
     display: block;
     margin-bottom: 0.5rem;
+}
+
+.post-title {
+    font-size: 2.4rem !important;
+    color: #333;
+    margin-bottom: 0.75rem;
 }
 
 .post-info {
@@ -27,15 +33,15 @@
     flex-direction: column;
 }
 
-.post-title {
-    font-size: 2.4rem !important;
-    color: #333;
-    margin-bottom: 0.75rem;
+.post-likes {
+    color: #666;
+    font-size: 0.85rem !important;
+    align-self: flex-end;
 }
 
 .post-author {
     color: #2d4a9e;
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
     font-weight: bold;
     display: block;
     margin-bottom: 0.25rem;
@@ -45,12 +51,6 @@
     color: #666;
     font-size: 0.85rem;
     margin-right: 1rem;
-}
-
-.post-likes {
-    color: #666;
-    font-size: 0.85rem;
-    align-self: flex-end;
 }
 
 .post-body {
